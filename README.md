@@ -15,7 +15,8 @@ Time Spent: 9 hours 30 minutes.
 - Vulnerability types: 
 - Tested in version: 4.1.0
 - Fixed in version: 
-- [ ] GIF Walkthrough: ![Kapture 2022-10-28 at 21 35 15](https://user-images.githubusercontent.com/70921921/198755917-5562a951-b888-4e60-ac89-16163c423f2c.gif)
+- [ ] GIF Walkthrough: 
+- [ ] ![Kapture 2022-10-28 at 21 35 15](https://user-images.githubusercontent.com/70921921/198755917-5562a951-b888-4e60-ac89-16163c423f2c.gif)
 - [ ] Steps to recreate: Go to the login page of the WordPress and test out different usernames. Test common entries such as "admin" or "administrator" and you may get a message saying that the 
 - [ ] Affected source code:
 - [ ] - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
