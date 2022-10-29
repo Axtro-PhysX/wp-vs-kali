@@ -63,7 +63,7 @@ GIFs created with
 
 ## Notes
 
-Many of the problems I faced involved implementation of testing certain vulnerabilities. XSS was the easiest to "set-up" as you can really just spam certain methedologies and such in order to get an alert result, and thus simple scripts could result in some daunting results. 
+My main issues with this project revolved around the use of VirtualBox and the installation of it's extension pack on MacOS. I just simply could not get it to work regardless of how many forum pages I visited and YouTube videos I watched and believe it may simply be an issue with the latest versions of MacOS not supporting something like the extension pack, but thankfully Docker came in to help me in this way. Docker offered a more lightweight alternative to running a traditional Kali VM and also taught me how to run my own application virtualizations if I ever needed to in the future. Many of the other problems I faced involved implementation of testing certain vulnerabilities. XSS was the easiest to "set-up" as you can really just spam certain methedologies and such in order to get an alert result, and thus simple scripts could result in some daunting results. 
 
 ## License
 
