@@ -2,11 +2,10 @@
 
 <img width="1494" alt="Screen Shot 2022-10-26 at 12 15 24 PM" src="https://user-images.githubusercontent.com/70921921/198755535-4dac0428-9b6b-4746-94ec-39640e76a66e.png">
 
-
 ## Project: WordPress Penetration Testing
 
 Time Spent: 9 hours 30 minutes. 
-> Objective: To find, analyze, recreate and document **five** vulnerabilities effecting WordPress version 4.2.
+> Objective: To find, analyze, recreate and document **five** vulnerabilities effecting WordPress version 4.1.0
 
 ### Penetration Testing Report:
 
@@ -14,10 +13,10 @@ Time Spent: 9 hours 30 minutes.
 
 - [ ] Summary: User Enumeration via logon method. A different message will display based on correct/incorrect entry of a username and password which can lead to a disclosure of account names.
 - Vulnerability types: 
-- Tested in version:
+- Tested in version: 4.1.0
 - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
+- [ ] GIF Walkthrough: ![Kapture 2022-10-28 at 21 30 07](https://user-images.githubusercontent.com/70921921/198755750-69ca73f0-e5c4-4bd1-a93d-131acd436f0f.gif)
+- [ ] Steps to recreate: Go to the login page of the WordPress and test out different usernames. Test common entries such as "admin" or "administrator" and you may get a message saying that the 
 - [ ] Affected source code:
 - [ ] - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
   
