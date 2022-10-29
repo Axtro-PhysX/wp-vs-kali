@@ -35,42 +35,21 @@ Time Spent: 9 hours 30 minutes.
 - [ ] Affected source code: https://github.com/WordPress/WordPress
 - [Link 1](http://127.0.0.1:8080/?p=13)
 
-### 3. (Required) Vulnerability Name or ID
+### 3. Cross-Site Scripting via HTML onclick
 
-- [ ] Summary: 
-- Vulnerability types:
-- Tested in version:
-- Fixed in version: 
+- [ ] Summary: Creating a post with a simple HTML onclick insertion grants an alert which signifies that we can perform malicious input through the discussion posts on the WordPress blog.
+- Vulnerability types: Cross-Site Scripting (XSS)
+- Tested in version: 4.1.0
+- Fixed in version: 4.2.4
 - [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-- [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-
-### 4. (Optional) Vulnerability Name or ID
-
-- [ ] Summary: 
-- Vulnerability types:
-- Tested in version:
-- Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-- [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-
-### 5. (Optional) Vulnerability Name or ID
-
-- [ ] Summary: 
-- Vulnerability types:
-- Tested in version:
-- Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-- [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
+![Kapture 2022-10-28 at 23 38 27](https://user-images.githubusercontent.com/70921921/198810888-e7ccf05f-f48a-423d-a719-885bbe1bef2b.gif)
+- [ ] Steps to recreate: Create a malicious event handler using a method such as HTML with an onclick element to test if you are able to create an alert. An example would be ```<html onclick="alert(1)" style=display:block>test</html>```
+- [ ] Affected source code: https://core.trac.wordpress.org/browser/trunk/src/wp-includes/theme.php
+- [Link 1](http://127.0.0.1:8080/?p=9)
 
 ## Assets
 
-List any additional assets, such as scripts or files
+1. [PortSwigger Cross-Site Scripting Cheatsheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)
 
 ## Resources
 
@@ -83,7 +62,7 @@ GIFs created with
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+Many of the problems I faced involved implementation of testing certain vulnerabilities. XSS was the easiest to "set-up" as you can really just spam certain methedologies and such in order to get an alert result, and thus simple scripts could result in some daunting results. 
 
 ## License
 
