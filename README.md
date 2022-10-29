@@ -5,7 +5,7 @@
 ## Project: WordPress Penetration Testing
 
 Time Spent: 9 hours 30 minutes. 
-> Objective: To find, analyze, recreate and document **five** vulnerabilities effecting WordPress version 4.1.0
+> Objective: To find, analyze, recreate and document **three** vulnerabilities effecting WordPress version 4.1.0
 
 ### Penetration Testing Report:
 
