@@ -1,4 +1,4 @@
-# Wordpress vs. Kali
+# 📖 Wordpress vs. Kali 🐉
 
 <img width="1494" alt="Screen Shot 2022-10-26 at 12 15 24 PM" src="https://user-images.githubusercontent.com/70921921/198755535-4dac0428-9b6b-4746-94ec-39640e76a66e.png">
 
