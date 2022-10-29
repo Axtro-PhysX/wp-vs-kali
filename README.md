@@ -14,12 +14,12 @@ Time Spent: 9 hours 30 minutes.
 - [ ] Summary: User Enumeration via logon method. A different message will display based on correct/incorrect entry of a username and password which can lead to a disclosure of account names.
 - Vulnerability types: 
 - Tested in version: 4.1.0
-- Fixed in version: 
+- Fixed in version: None (can install plugin to mitigate)
 - [ ] GIF Walkthrough: 
 
 ![Kapture 2022-10-28 at 21 35 15](https://user-images.githubusercontent.com/70921921/198755917-5562a951-b888-4e60-ac89-16163c423f2c.gif)
 - [ ] Steps to recreate: Go to the login page of the WordPress and test out different usernames. Test common entries such as "admin" or "administrator" and you may get a message saying that the 
-- [ ] Affected source code:
+- [ ] Affected source code: https://github.com/WordPress/WordPress
 - [ ] - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
   
 ### 2. (Required) Vulnerability Name or ID
