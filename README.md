@@ -12,26 +12,28 @@ Time Spent: 9 hours 30 minutes.
 ### 1. User Enumeration
 
 - [ ] Summary: User Enumeration via logon method. A different message will display based on correct/incorrect entry of a username and password which can lead to a disclosure of account names.
-- Vulnerability types: 
+- Vulnerability types: Credential Theft/Discovery
 - Tested in version: 4.1.0
-- Fixed in version: None (can install plugin to mitigate)
+- Fixed in version: 4.4 (can install plugin to mitigate)
 - [ ] GIF Walkthrough: 
 
 ![Kapture 2022-10-28 at 21 35 15](https://user-images.githubusercontent.com/70921921/198755917-5562a951-b888-4e60-ac89-16163c423f2c.gif)
-- [ ] Steps to recreate: Go to the login page of the WordPress and test out different usernames. Test common entries such as "admin" or "administrator" and you may get a message saying that the 
+- [ ] Steps to recreate: Go to the login page of the WordPress and test out different usernames. Test common entries such as "admin" or "administrator" and you may get a message saying that the username is not found or that the password for the guessed username is incorrect, thus landing you a potential access point.
 - [ ] Affected source code: https://github.com/WordPress/WordPress
 - [ ] - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
   
-### 2. (Required) Vulnerability Name or ID
+### 2. Stored Cross-Site Scripting via YouTube URL
 
-- [ ] Summary: 
-- Vulnerability types:
-- Tested in version:
-- Fixed in version: 
+- [ ] Summary: Using XSS, one can inject malicious JavaScript through a YouTube URL.
+- Vulnerability types: Cross-Site Scripting (XSS)
+- Tested in version: 4.1.0
+- Fixed in version: 4.7.3
 - [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-- [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+
+![Kapture 2022-10-28 at 23 28 45](https://user-images.githubusercontent.com/70921921/198806179-e118036b-5c47-4979-83e0-d7f078360723.gif)
+- [ ] Steps to recreate: Create malicious payload through a YouTube URL. Example: ```[embed src='https://youtube.com/embed/12345\x3csvg onload=alert(1)\x3e'][/embed]```
+- [ ] Affected source code: https://github.com/WordPress/WordPress
+- [Link 1](http://127.0.0.1:8080/?p=13)
 
 ### 3. (Required) Vulnerability Name or ID
 
