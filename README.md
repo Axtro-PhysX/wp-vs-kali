@@ -1,5 +1,8 @@
 # Wordpress vs. Kali
 
+<img width="1494" alt="Screen Shot 2022-10-26 at 12 15 24 PM" src="https://user-images.githubusercontent.com/70921921/198755535-4dac0428-9b6b-4746-94ec-39640e76a66e.png">
+
+
 ## Project: WordPress Penetration Testing
 
 Time Spent: 9 hours 30 minutes. 
@@ -7,8 +10,10 @@ Time Spent: 9 hours 30 minutes.
 
 ### Penetration Testing Report:
 
-- [ ] Summary: 
-- Vulnerability types:
+### 1. User Enumeration
+
+- [ ] Summary: User Enumeration via logon method. A different message will display based on correct/incorrect entry of a username and password which can lead to a disclosure of account names.
+- Vulnerability types: 
 - Tested in version:
 - Fixed in version: 
 - [ ] GIF Walkthrough: 
@@ -69,7 +74,7 @@ List any additional assets, such as scripts or files
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/)
 
-GIFs created with  ...
+GIFs created with
 [Kap](https://getkap.co/) for macOS
 
 
