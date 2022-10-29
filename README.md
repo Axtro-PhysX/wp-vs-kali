@@ -42,6 +42,7 @@ Time Spent: 9 hours 30 minutes.
 - Tested in version: 4.1.0
 - Fixed in version: 4.2.4
 - [ ] GIF Walkthrough: 
+
 ![Kapture 2022-10-28 at 23 38 27](https://user-images.githubusercontent.com/70921921/198812363-2cf28bdc-6c9b-478d-a659-db19668ebf79.gif)
 - [ ] Steps to recreate: Create a malicious event handler using a method such as HTML with an onclick element to test if you are able to create an alert. An example would be ```<html onclick="alert(1)" style=display:block>test</html>```
 - [ ] Affected source code: https://core.trac.wordpress.org/browser/trunk/src/wp-includes/theme.php
